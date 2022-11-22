@@ -47,4 +47,3 @@ Segundo, debo limitar la cantidad de tareas que pueden estar en progreso al mism
 
 Tercero, utilizar una herramienta que me ayude a administrar mis proyectos con Kanban. Utilizaré GitHub que me ofrece una herramienta para llevar un seguimiento del proyecto y además se puede integrar con un repositorio de Git.
 
-Considerando tu proyecto seleccionado, distingue los elementos de Scrum que revisamos en el Work y completa las tablas y ejercicios que se muestran a continuación.
