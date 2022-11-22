@@ -1,5 +1,7 @@
 # Módulo 1 - Sesión 2 "Fundamentos de Scrum" PostWork
 
+Considerando tu proyecto seleccionado, distingue los elementos de Scrum que revisamos en el Work y completa las tablas y ejercicios que se muestran a continuación.
+
 **1.** Identifica qué ceremonias puedes implementar en tu equipo de trabajo y enlístalas.
 
 | **Ceremonias**                         | **Justificación**                                            |
