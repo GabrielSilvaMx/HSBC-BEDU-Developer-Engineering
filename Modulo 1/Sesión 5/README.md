@@ -1,0 +1,13 @@
+# Módulo 1 - Sesión 5 "Flujos de DevSecOps y manejo de código" PostWork
+
+En este PostWork vas a trabajar con 3 desarrolladores, cada uno con una copia de Master/Main, o sea, cada quien hará una rama directa de la rama principal.
+
+| Carpeta  | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| -         | Enlace al repositorio [**DevOpsBeduReto02**](https://github.com/GabrielSilvaMx/-DevOpsBeduReto02-) | 
+
+
+Resultado Final:<br>
+Desplegar un servidor de aplicaciones basado en Docker en Azure.
+
+![Imagen de Docker en Azure](PostWork/docker_azure.png)
