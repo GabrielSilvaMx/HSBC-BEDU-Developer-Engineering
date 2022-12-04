@@ -5,19 +5,20 @@ Rúbrica entrega de tareas:
 
 <https://github.com/GabrielSilvaMx/HSBC-BEDU-Developer-Engineering/tree/main/Modulo%201>
 
-## **Proyecto prácticas ágiles**
-
-El proyecto se encuentra en la carpeta de entregable en la Sesión 01:
-
-<https://github.com/GabrielSilvaMx/HSBC-BEDU-Developer-Engineering/tree/main/Modulo%201/Sesi%C3%B3n%201>
-
-## **Rúbrica Checkpoint**
+## **Rúbrica Checkpoint - Proyecto Final**
 
 Video de entrega del Checkpoint:
 
 <https://youtu.be/NzNpYxqptZE>
 
-Objetivo
+**1) Proyecto prácticas ágiles**
+
+El proyecto se encuentra en la carpeta de entregable en la Sesión 01:
+
+<https://github.com/GabrielSilvaMx/HSBC-BEDU-Developer-Engineering/tree/main/Modulo%201/Sesi%C3%B3n%201>
+
+
+**2) Objetivos**
 
 -   Crear infraestructura con Terraform
 -   Crear Pipelines en Jenkins
