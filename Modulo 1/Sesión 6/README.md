@@ -60,5 +60,5 @@ terraform apply main.tfplan
 
 Resultado en Microsoft Azure:
 
-
-![Terraform en Azure](testng editable.png)
+![](media/517696390615ba11404b3539ec5bdf43.png)
+![](testng editable.png)
