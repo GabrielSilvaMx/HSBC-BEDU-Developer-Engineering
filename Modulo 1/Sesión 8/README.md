@@ -29,3 +29,9 @@
 ![Interfaz de usuario gráfica Descripción generada automáticamente](media/11ea407b0de4ff613d1cec7358e30617.png)
 
 ![Interfaz de usuario gráfica, Texto, Aplicación, Correo electrónico Descripción generada automáticamente](media/0281808797a7468f350f9e06c59b45ea.png)
+
+![Interfaz de usuario gráfica, Sitio web Descripción generada automáticamente](media/849b8c298009cbf27d3158d48d1024d3.png)
+
+![Interfaz de usuario gráfica, Aplicación Descripción generada automáticamente](media/f3a1489004ae709d1c081c9abc2296a1.png)
+
+![Texto Descripción generada automáticamente con confianza baja](media/d83ad93403076bbe1d53efc01365effc.png)
