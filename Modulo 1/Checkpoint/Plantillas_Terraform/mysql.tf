@@ -1,16 +1,16 @@
 resource "docker_image" "mysql" {
-  name = "mysql:latest"
+  name = "mysql"
 }
 
 resource "docker_container" "mysql" {
   name  = "mysql"
-  image = docker_image.mysql.latest
+  image = docker_image.mysql.image_id
   env = [
     "MYSQL_ROOT_PASSWORD=abcD_1234"
   ]
   ports {
     internal = 3306
-    external = 3306
+    external = 3307
   }
   depends_on = [
     docker_image.mysql

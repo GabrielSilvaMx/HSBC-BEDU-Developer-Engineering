@@ -1,27 +1,27 @@
-resource "docker_image" "jenkins" {
-  name = "jenkins"
+resource "docker_image" "jenkins_docker" {
+  name = "jbd"
   build {
-    path = "./config"
+    path = ".config/"
     tag = [
-      "jenkins:latest"
+      "jbd:latest"
     ]
   }
 }
 
-resource "docker_volume" "jenkins_volume" {
-  name = "jenkins_home"
-}
+# resource docker_volume "jenkins_volume" {
+#   name = "jenkins_home"
+# }
 
 resource "docker_container" "jenkins" {
   name       = "jenkins"
-  image      = docker_image.jenkins.latest
+  image      = docker_image.jenkins_docker.image_id
   privileged = true
   env = [
     "JENKINS_HOME=/var/jenkins_home",
   ]
   ports {
     internal = 8080
-    external = 8080
+    external = 8088
   }
   volumes {
     host_path      = "/var/run/docker.sock"
@@ -30,13 +30,13 @@ resource "docker_container" "jenkins" {
   }
   volumes {
     volume_name    = "jenkins_home"
-    host_path      = "/E/BEDU/proyecto/jenkins_home"
+    host_path      = "/home/jenkins_home"
     container_path = "/var/jenkins_home"
     read_only      = false
   }
-  provisioner "local-exec" {
+    provisioner "local-exec" {
     command = "docker exec -d -u root jenkins chown jenkins:jenkins /var/run/docker.sock"
   }
 }
 
-output docker inspect -f '{{ .NetworkSettings.IPAddress }}' containerID
+output "jenkins_ip" { value = "JENKINS_IP=${docker_container.jenkins.ip_address}" }
